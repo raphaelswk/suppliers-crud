@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\DevIO.Data.csproj": {}
+    "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\DevIO.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\obj\\",
+        "outputPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\DevIO.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\DevIO.Data.csproj",
         "projectName": "DevIO.Data",
-        "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\DevIO.Data.csproj",
         "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\obj\\",
+        "outputPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,8 +94,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\DevIO.Business.csproj"
               }
             }
           }

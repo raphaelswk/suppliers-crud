@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uqgd1WkkbT/6dlb27W9D/QCWJdgCWQUoyWYkklFNXnzeeM8k1RtqmOICp2SyaStNg8xKq/VQgOzo0eR8KXTl+w==",
+  "dgSpecHash": "YajqouYQLKCguRMONG9VNJtqY64rFglKm+HnWzT8CUmfSzktniy00kxua/2qtoGlD0nEXfbAJ0zqKMBtCUE8ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\DevIO.Data.csproj",
+  "projectFilePath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rapha\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\rapha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

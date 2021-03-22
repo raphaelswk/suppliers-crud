@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace DevIO.Api.Controllers
 {
+    [Authorize]
     [Route("api/produtos")]
     public class ProdutosController : MainController
     {
@@ -22,7 +25,8 @@ namespace DevIO.Api.Controllers
         public ProdutosController(INotificador notificador,
                                   IProdutoService produtoService,
                                   IProdutoRepository produtoRepository,
-                                  IMapper mapper) : base(notificador)
+                                  IMapper mapper,
+                                  IUser user) : base(notificador, user)
         {
             _produtoRepository = produtoRepository;
             _produtoService = produtoService;
@@ -45,6 +49,7 @@ namespace DevIO.Api.Controllers
             return produtoViewModel;
         }
 
+        [ClaimsAuthorize("Produto", "Adicionar")]
         [HttpPost]
         public async Task<ActionResult<ProdutoViewModel>> Add(ProdutoViewModel produtoViewModel)
         {
@@ -85,6 +90,7 @@ namespace DevIO.Api.Controllers
             return true;
         }
 
+        [ClaimsAuthorize("Produto", "Adicionar")]
         [HttpPost("Adicionar")]
         public async Task<ActionResult<ProdutoViewModel>> AlternativeAdd(ProdutoImagemViewModel produtoImagemViewModel)
         {
@@ -134,6 +140,7 @@ namespace DevIO.Api.Controllers
             return true;
         }
 
+        [ClaimsAuthorize("Produto", "Atualizar")]
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> Update(Guid id, ProdutoViewModel produtoViewModel)
         {
@@ -168,6 +175,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(produtoViewModel);
         }
 
+        [ClaimsAuthorize("Produto", "Excluir")]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<ProdutoViewModel>> Delete(Guid id)
         {

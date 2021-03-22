@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace DevIO.Api.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class FornecedoresController : MainController
     {
@@ -22,7 +24,8 @@ namespace DevIO.Api.Controllers
                                       IMapper mapper, 
                                       IFornecedorService fornecedorService,
                                       INotificador notificador,
-                                      IEnderecoRepository enderecoRepository) : base(notificador)
+                                      IEnderecoRepository enderecoRepository,
+                                      IUser user) : base(notificador, user)
         {
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
@@ -38,7 +41,6 @@ namespace DevIO.Api.Controllers
             return fornecedoresViewModel;
         }
 
-        [Authorize]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<FornecedorViewModel>> GetById(Guid id)
         {
@@ -49,6 +51,7 @@ namespace DevIO.Api.Controllers
             return fornecedorViewModel;
         }
 
+        [ClaimsAuthorize("Fornecedor", "Add")]
         [HttpPost]
         public async Task<ActionResult<FornecedorViewModel>> Add(FornecedorViewModel fornecedorViewModel)
         {
@@ -59,6 +62,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(fornecedorViewModel);
         }
 
+        [ClaimsAuthorize("Fornecedor", "Update")]
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<FornecedorViewModel>> Update(Guid id, FornecedorViewModel fornecedorViewModel)
         {
@@ -75,6 +79,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(fornecedorViewModel);
         }
 
+        [ClaimsAuthorize("Fornecedor", "Delete")]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<FornecedorViewModel>> Delete(Guid id)
         {
@@ -94,6 +99,7 @@ namespace DevIO.Api.Controllers
             return enderecoViewModel;
         }
 
+        [ClaimsAuthorize("Fornecedor", "Update")]
         [HttpPut("atualizar-endereco/{id:guid}")]
         public async Task<IActionResult> AtualizarEnderecoPor(Guid id, EnderecoViewModel enderecoViewModel)
         {

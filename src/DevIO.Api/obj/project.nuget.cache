@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zPZs0k0o6HS4DdQ1bSXS+cpZ9J4mfLFCrlvMgeR0EWp+DcMN3g9gW+zuL+Y7CivssJ16d/JsxWLzq18ahhyIIg==",
+  "dgSpecHash": "Fx6eMoI68aV9S4GHRZAbDQwSwyd8hj7AD9aoKB8zcxMHj/StnkSx12vT+t3OTK2ZIfTMAkTO64ux5+gTDj3VWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Api\\DevIO.Api.csproj",
+  "projectFilePath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rapha\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rapha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

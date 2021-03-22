@@ -14,6 +14,8 @@ export class UserService extends BaseService {
 
     login(user: User): Observable<User> {
 
+        console.log(this.UrlServiceV1);
+
         return this.http
             .post(this.UrlServiceV1 + 'entrar', user, super.ObterHeaderJson())
             .pipe(

@@ -9785,11 +9785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Api\\DevIO.Api.csproj",
+      "projectUniqueName": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Api\\DevIO.Api.csproj",
       "projectName": "DevIO.Api",
-      "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Api\\DevIO.Api.csproj",
+      "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Api\\DevIO.Api.csproj",
       "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Api\\obj\\",
+      "outputPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9809,11 +9809,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\DevIO.Business.csproj": {
-              "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Business\\DevIO.Business.csproj"
+            "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Business\\DevIO.Business.csproj"
             },
-            "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\DevIO.Data.csproj": {
-              "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\MyMasterCoreApi\\src\\DevIO.Data\\DevIO.Data.csproj"
+            "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\DevIO.Data.csproj": {
+              "projectPath": "C:\\Users\\rapha\\OneDrive\\CODE\\DOTNET\\DevIO\\suppliers-crud\\src\\DevIO.Data\\DevIO.Data.csproj"
             }
           }
         }
