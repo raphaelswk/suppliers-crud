@@ -31,7 +31,7 @@ namespace DevIO.Api
 
             services.AddAutoMapper(typeof(Startup));
 
-            services.WebApiConfig();
+            services.AddApiConfig();
             
             services.ResolveDependencies();
         }
@@ -41,12 +41,18 @@ namespace DevIO.Api
         {
             if (env.IsDevelopment())
             {
+                app.UseCors("Development"); // CORS Must be called first
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseCors("Production");
+                app.UseHsts();
+            }
 
-            app.UseAuthentication(); // MUST ALWAYS COME BEFORE UseMvcConfiguration !!!
+            app.UseAuthentication(); // MUST ALWAYS COME BEFORE UseApiConfig
 
-            app.UseMvcConfiguration();
+            app.UseApiConfig();
 
             app.UseAuthorization();
 

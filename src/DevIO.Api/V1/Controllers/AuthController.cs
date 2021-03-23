@@ -1,4 +1,5 @@
-﻿using DevIO.Api.Extensions;
+﻿using DevIO.Api.Controllers;
+using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Identity;
@@ -12,18 +13,19 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevIO.Api.Controllers
+namespace DevIO.Api.V1.Controllers
 {
-    [Route("api")]
-    //[Route("api/[controller]")]
+    [ApiVersion("1.0")]  
+    [Route("api/v{version:apiVersion}")]
+    //[Route("api/[controller]")] 
     public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly AppSettings _appSettings;
 
-        public AuthController(INotificador notificador, 
-                              SignInManager<IdentityUser> signInManager, 
+        public AuthController(INotificador notificador,
+                              SignInManager<IdentityUser> signInManager,
                               UserManager<IdentityUser> userManager,
                               IOptions<AppSettings> appSettings,
                               IUser user) : base(notificador, user)
@@ -115,7 +117,7 @@ namespace DevIO.Api.Controllers
                 Subject = claimsIdentity,
                 Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),
                 SigningCredentials = new SigningCredentials(
-                                            new SymmetricSecurityKey(key), 
+                                            new SymmetricSecurityKey(key),
                                             SecurityAlgorithms.HmacSha256Signature)
             });
 
