@@ -143,8 +143,12 @@ C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
