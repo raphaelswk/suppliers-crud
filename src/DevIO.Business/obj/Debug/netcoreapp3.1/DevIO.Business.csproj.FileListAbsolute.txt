@@ -10,7 +10,6 @@ C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\MyMasterCoreApi\src\DevIO.Business\obj
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.deps.json
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
-C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csprojAssemblyReference.cache
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfoInputs.cache
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfo.cs
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.CoreCompileInputs.cache

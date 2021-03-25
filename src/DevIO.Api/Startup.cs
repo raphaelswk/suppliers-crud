@@ -1,4 +1,5 @@
 using DevIO.Api.Configuration;
+using DevIO.Api.Extensions;
 using DevIO.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Swashbuckle.AspNetCore.Swagger;
 
 namespace DevIO.Api
 {
@@ -33,12 +33,10 @@ namespace DevIO.Api
             services.AddAutoMapper(typeof(Startup));
 
             services.AddApiConfig();
-
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc(name: "V1", new Info { Title = "My API", Version = "v1" });
-            //});
+            
             services.AddSwaggerConfig();
+
+            services.AddLoggingConfiguration(Configuration);            
 
             services.ResolveDependencies();
         }
@@ -59,6 +57,8 @@ namespace DevIO.Api
 
             app.UseAuthentication(); // MUST ALWAYS COME BEFORE UseApiConfig
 
+            app.UseMiddleware<ExceptionMiddleware>();
+
             app.UseApiConfig();
 
             app.UseAuthorization();
@@ -68,12 +68,9 @@ namespace DevIO.Api
                 endpoints.MapControllers();
             });
 
-            //app.UseSwagger();
-            //app.UseSwaggerUI(c =>
-            //{
-            //    c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "My API V1");
-            //});
             app.UseSwaggerConfig(provider);
+
+            app.UseLoggingConfiguration();            
         }
     }
 }
