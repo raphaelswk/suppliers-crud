@@ -216,3 +216,5 @@ C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\obj\Debug
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.dll
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.pdb
 C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.genruntimeconfig.cache
+C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\appsettings.Production.json
+C:\Users\rapha\OneDrive\CODE\DOTNET\DevIO\suppliers-crud\src\DevIO.Api\bin\Debug\netcoreapp3.1\appsettings.Staging.json
